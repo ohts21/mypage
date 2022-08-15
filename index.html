@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“용택이 - 프로필 링크” />
+        <meta property=“og:description” content=“술 좋아 하세요?” />
+        <meta property=“og:image” content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EB%A1%9C%EA%B3%A0.png">
+        <title>르탄이 - 프로필 링크</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+
+           body {
+            background-color: #44398A;
+           }
+
+           .profile {
+               width: 100px;
+               height: 100px;
+               background-color: green;
+               border-radius: 100%;
+
+               background-image: url('사진091003_003.jpg');
+               background-position: center;
+               background-size: cover;
+           }
+
+           .main {
+             color: white;
+             font-size: 20px;
+             margin-top: 30px;
+             margin-bottom: 10px;
+            }
+
+            .sub {
+             color: white;
+             font-size: 14px;
+             margin-top: 0;
+             margin-bottom: 30px;
+            }
+
+            .wrap{
+                
+                width: 300px;
+                margin: 30px auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .wrap > a {
+               width: 300px;
+               height: 50px;
+               background-color: white;
+               border-radius: 8px;
+               margin-bottom: 10px;
+               font-size: 14px;
+               font-weight: bold ;
+               color: #44398A;
+               /*<div>태그안에서 내용물이 중앙으로 오게*/
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               /* <div>태그안에서 ----끝         */
+
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px black;
+            }
+
+            .wrap > a:hover {
+                background-color: #fae5e5;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">용택이</h1>
+            <p class="sub">술 좋아 하세요?</p>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100003658477030">페이스북</a>
+            <a target="_blank" href="https://twitter.com/assarvia">트윗</a>
+            <a target="_blank" href="https://www.instagram.com/taeksang_oh/">인스타그램</a>
+            <a target="_blank" href="http://nicing.kr/">Nicing</a>
+            <a target="_blank" href="http://nicing.kr/blog">블로그</a>
+        </div>
+        
+    </body>
+</html>
